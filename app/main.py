@@ -96,7 +96,7 @@ async def add_process_time_header(request: Request, call_next):
 @app.get("/health")
 async def health_check():
     """Lightweight endpoint used by users, load balancers and deployment checks."""
-    return {"status": "Fine", "version": "1.0.0"}
+    return {"status": "Healthy", "version": "1.0.0"}
 
 
 @app.get("/")
@@ -104,7 +104,7 @@ async def api_home():
     """Small landing response useful when the API is hosted on a cloud platform."""
     return {
         "service": "Operational Agent API",
-        "status": "running",
+        "status": "running and healthy",
         "health": "/health",
         "interactive_docs": "/docs",
         "chat_endpoint": "POST /chat",
