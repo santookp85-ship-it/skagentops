@@ -104,7 +104,7 @@ async def api_home():
     """Small landing response useful when the API is hosted on a cloud platform."""
     return {
         "service": "Operational Agent API",
-        "status": "running",
+        "status": "running and healthy",
         "health": "/health",
         "interactive_docs": "/docs",
         "chat_endpoint": "POST /chat",
