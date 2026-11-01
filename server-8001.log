@@ -1,0 +1,9 @@
+{"timestamp": "2026-10-28T17:12:41.296673", "level": "INFO", "event": "observability_config", "status": "configured", "project": "Operational Agent "}
+{"timestamp": "2026-10-28T17:12:41.296673", "level": "INFO", "event": "system_startup", "message": "Operational Agent API started"}
+{"timestamp": "2026-10-28T17:12:41.563286", "level": "INFO", "event": "request_received", "request_id": "8674ba74-5749-4daf-9e6e-edf7fdc5d4e4", "path": "/health", "method": "GET"}
+{"timestamp": "2026-10-28T17:12:41.563910", "level": "INFO", "event": "request_completed", "request_id": "8674ba74-5749-4daf-9e6e-edf7fdc5d4e4", "status_code": 200, "latency_ms": 0.62}
+INFO:     127.0.0.1:59891 - "GET /health HTTP/1.1" 200 OK
+{"timestamp": "2026-10-28T17:12:41.781470", "level": "INFO", "event": "request_received", "request_id": "65317191-c0f2-4855-8dc3-e5817ebe47b6", "path": "/chat", "method": "POST"}
+{"timestamp": "2026-10-28T17:12:49.478361", "level": "INFO", "event": "agent_interaction", "session_id": "local-agent-test", "query": "Reply with exactly: operational agent ready", "route": "agent", "latency_ms": 7696.89, "outcome": "success"}
+{"timestamp": "2026-10-28T17:12:49.478361", "level": "INFO", "event": "request_completed", "request_id": "65317191-c0f2-4855-8dc3-e5817ebe47b6", "status_code": 200, "latency_ms": 7696.89}
+INFO:     127.0.0.1:59891 - "POST /chat HTTP/1.1" 200 OK

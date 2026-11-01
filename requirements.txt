@@ -1,0 +1,9 @@
+# Pinned pair prevents the FastAPI/Starlette Router compatibility error in Vocareum.
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn>=0.27,<0.31
+langchain-core>=0.2,<0.4
+langchain-openai>=0.1,<0.4
+langsmith>=0.1,<0.4
+python-dotenv>=1,<2
+requests>=2,<3
