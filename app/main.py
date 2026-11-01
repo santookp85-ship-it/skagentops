@@ -96,7 +96,7 @@ async def add_process_time_header(request: Request, call_next):
 @app.get("/health")
 async def health_check():
     """Lightweight endpoint used by users, load balancers and deployment checks."""
-    return {"status": "ok", "version": "1.0.0"}
+    return {"status": "Fine", "version": "1.0.0"}
 
 
 @app.get("/")
